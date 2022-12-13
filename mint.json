@@ -45,14 +45,29 @@
   ],
   "navigation": [
     {
-      "group": "Guides",
+      "group": "General",
       "pages": [
-        "getting-started",
-        "call-error-messages",
-        "using-the-meetingos",
-        "website-installation",
-        "payments",
+        "welcome",
         "roadmap"
+      ]
+    },
+    {
+      "group": "Help",
+      "pages": [
+        "meeting-interface",
+        "call-error-messages",
+        "payments"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "website-installation"
+      ]
+    },
+    {
+      "group": "Legal",
+      "pages": [
       ]
     }
   ],
