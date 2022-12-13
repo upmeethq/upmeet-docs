@@ -56,8 +56,10 @@
       "group": "Help",
       "pages": [
         "meeting-interface",
+        "controls",
         "call-error-messages",
-        "payments"
+        "payments",        
+        "recording"
       ]
     },
     {
