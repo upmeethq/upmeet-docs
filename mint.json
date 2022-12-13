@@ -28,6 +28,11 @@
   ],
   "anchors": [
     {
+      "name": "Roadmap",
+      "icon": "map",
+      "url": "https://docs.upmeet.me/roadmap"
+    },
+    {
       "name": "Feedback",
       "icon": "messages",
       "url": "https://upmeet.canny.io"
@@ -43,7 +48,8 @@
       "group": "General",
       "pages": [
         "welcome",
-        "roadmap"
+        "roadmap",
+        "frequently-asked"
       ]
     },
     {
