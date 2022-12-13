@@ -22,16 +22,11 @@
   },
   "topbarLinks": [
     {
-      "name": "Portal",
+      "name": "Manage Account",
       "url": "https://billing.stripe.com/login/cN23g19ZJ7SCd4Q7ss"
     }
   ],
   "anchors": [
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://upmeet.me/blog"
-    },
     {
       "name": "Feedback",
       "icon": "messages",
@@ -68,6 +63,8 @@
     {
       "group": "Legal",
       "pages": [
+        "terms",
+        "privacy"
       ]
     }
   ],
