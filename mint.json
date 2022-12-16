@@ -4,6 +4,10 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "integrations": {
+    "intercom": "vhrhwhwl"
+  },
+  "backgroundImage": "/images/docs-bg.png",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#1AC27B",
@@ -33,9 +37,9 @@
       "url": "https://docs.upmeet.me/roadmap"
     },
     {
-      "name": "Feedback",
-      "icon": "messages",
-      "url": "https://upmeet.canny.io"
+      "name": "Changelog",
+      "icon": "note",
+      "url": "https://docs.upmeet.me/changelog"
     },
     {
       "name": "Contact Us",
