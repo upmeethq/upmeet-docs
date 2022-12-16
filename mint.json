@@ -69,7 +69,7 @@
       ]
     },
     {
-      "group": "Integrations",
+      "group": "Install Integrations",
       "pages": [
         "integrations/website-installation",
         "integrations/clickup",
