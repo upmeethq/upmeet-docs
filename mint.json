@@ -32,14 +32,9 @@
   ],
   "anchors": [
     {
-      "name": "Roadmap",
-      "icon": "map",
-      "url": "https://docs.upmeet.me/roadmap"
-    },
-    {
-      "name": "Changelog",
-      "icon": "note",
-      "url": "https://docs.upmeet.me/changelog"
+      "name": "Feedback",
+      "icon": "message-lines",
+      "url": "https://feedback.upmeet.me/"
     },
     {
       "name": "Contact Us",
