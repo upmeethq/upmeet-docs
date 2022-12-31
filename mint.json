@@ -37,6 +37,11 @@
       "url": "https://feedback.upmeet.me/"
     },
     {
+      "name": "Changelog",
+      "icon": "sparkles"
+      "url": "https://feedback.upmeet.me/changelog"
+    },
+    {
       "name": "Website",
       "icon": "browser",
       "url": "https://upmeet.me/"
