@@ -36,7 +36,7 @@
     },
     {
       "name": "Changelog",
-      "icon": "sparkles"
+      "icon": "sparkles",
       "url": "https://feedback.upmeet.me/changelog"
     },
     {
@@ -53,10 +53,7 @@
   "navigation": [
     {
       "group": "General",
-      "pages": [
-        "welcome",
-        "frequently-asked"
-      ]
+      "pages": ["welcome", "frequently-asked"]
     },
     {
       "group": "Help",
@@ -64,8 +61,8 @@
         "meeting-interface",
         "controls",
         "call-error-messages",
-        "payments",        
-        "recording",        
+        "payments",
+        "recording",
         "browsing"
       ]
     },
@@ -84,10 +81,7 @@
     },
     {
       "group": "Legal",
-      "pages": [
-        "terms",
-        "privacy"
-      ]
+      "pages": ["terms", "privacy"]
     }
   ],
   "footerSocials": {
