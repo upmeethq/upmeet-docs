@@ -73,11 +73,7 @@
         "integrations/website-installation",
         "integrations/clickup",
         "integrations/notion",
-        "integrations/hubspot",
-        "integrations/calendly",
-        "integrations/slack",
-        "integrations/amie",
-        "integrations/cron"
+        "integrations/slack"
       ]
     },
     {
