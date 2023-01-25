@@ -7,7 +7,6 @@
   "integrations": {
     "intercom": "vhrhwhwl"
   },
-  "backgroundImage": "/images/docs-bg.png",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#1AC27B",
