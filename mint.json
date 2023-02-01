@@ -7,7 +7,7 @@
   "integrations": {
     "intercom": "vhrhwhwl"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.svg", 
   "colors": {
     "primary": "#1AC27B",
     "light": "#82DFB8",
