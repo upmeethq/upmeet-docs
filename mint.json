@@ -31,19 +31,24 @@
   ],
   "anchors": [
     {
-      "name": "Feedback",
-      "icon": "message-lines",
-      "url": "https://feedback.upmeet.me/"
+      "name": "Features",
+      "icon": "gallery-thumbnails",
+      "url": "meeting-interface"
     },
     {
       "name": "Changelog",
       "icon": "sparkles",
-      "url": "https://feedback.upmeet.me/changelog"
+      "url": "changelog"
     },
     {
-      "name": "Website",
-      "icon": "browser",
-      "url": "https://upmeet.me/"
+      "name": "Status",
+      "icon": "hexagon-check",
+      "url": "https://upmeet.instatus.com/"
+    },
+    {
+      "name": "Feedback",
+      "icon": "message-lines",
+      "url": "https://feedback.upmeet.me/"
     },
     {
       "name": "Contact Us",
@@ -54,15 +59,14 @@
   "navigation": [
     {
       "group": "General",
-      "pages": ["welcome", "frequently-asked"]
+      "pages": ["welcome", "frequently-asked", "changelog", "payments"]
     },
     {
-      "group": "Help",
+      "group": "Meeting Help",
       "pages": [
         "meeting-interface",
         "controls",
         "call-error-messages",
-        "payments",
         "recording",
         "browsing",
         "ai"
@@ -78,12 +82,13 @@
       ]
     },
     {
-      "group": "Legal",
+      "group": "Your Data",
       "pages": ["terms", "privacy"]
     }
   ],
   "footerSocials": {
     "website": "https://upmeet.me",
-    "twitter": "https://mobile.twitter.com/upmeethq"
+    "twitter": "https://mobile.twitter.com/upmeethq",
+    "github": "https://github.com/upmeethq"
   }
 }
