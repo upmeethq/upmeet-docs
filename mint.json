@@ -10,10 +10,10 @@
   "favicon": "/favicon.svg", 
   "colors": {
     "primary": "#107CB9",
-    "light": "#82DFB8",
-    "dark": "#18A269",
-    "ultraLight": "#E9FCF4",
-    "ultraDark": "#07603B",
+    "light": "#6bd3ff",
+    "dark": "#187fa2",
+    "ultraLight": "#e9f7fc",
+    "ultraDark": "#074e60",
     "anchors": {
       "from": "#107CB9",
       "to": "#00B2FF"
