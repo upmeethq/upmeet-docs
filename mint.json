@@ -31,11 +31,6 @@
   ],
   "anchors": [
     {
-      "name": "Features",
-      "icon": "gallery-thumbnails",
-      "url": "/meeting-interface"
-    },
-    {
       "name": "Changelog",
       "icon": "sparkles",
       "url": "/changelog"
@@ -43,7 +38,7 @@
     {
       "name": "Status",
       "icon": "hexagon-check",
-      "url": "https://upmeet.instatus.com/"
+      "url": "https://status.upmeet.me."
     },
     {
       "name": "Feedback",
@@ -53,7 +48,7 @@
     {
       "name": "Contact Us",
       "icon": "envelope",
-      "url": "mailto:reece@upmeet.me"
+      "url": "mailto:team@upmeet.me"
     }
   ],
   "navigation": [
