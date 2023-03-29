@@ -68,7 +68,7 @@
       ]
     },
     {
-      "group": "Meeting Help",
+      "group": "Guides",
       "pages": [
         "meeting-interface",
         "controls",
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "group": "Install Integrations",
+      "group": "Integrations",
       "pages": [
         "integrations/website-installation",
         "integrations/clickup",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "group": "Your Data",
+      "group": "App Safety",
       "pages": ["terms", "privacy"]
     }
   ],
