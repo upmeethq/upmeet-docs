@@ -89,7 +89,7 @@
     },
     {
       "group": "App Safety",
-      "pages": ["terms", "privacy"]
+      "pages": ["terms", "privacy", "recording-inprogress", "copilot-notice"]
     }
   ],
   "footerSocials": {
