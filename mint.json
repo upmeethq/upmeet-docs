@@ -54,7 +54,8 @@
     {
       "group": "Hubs",
       "pages": [
- 
+        "security-hub",
+        "integrations-hub"
       ]
     },
     {
