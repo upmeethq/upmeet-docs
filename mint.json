@@ -31,11 +31,6 @@
   ],
   "anchors": [
     {
-      "name": "Changelog",
-      "icon": "sparkles",
-      "url": "/changelog"
-    },
-    {
       "name": "Status",
       "icon": "hexagon-check",
       "url": "https://status.upmeet.me/"
