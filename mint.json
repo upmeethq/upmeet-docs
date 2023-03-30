@@ -57,6 +57,13 @@
       ]
     },
     {
+      "group": "General",
+      "pages": [
+        "payments",
+        "frequently-asked"
+      ]
+    },
+    {
       "group": "Guides",
       "pages": [
         "meeting-interface",
@@ -64,13 +71,6 @@
         "call-error-messages",
         "recording",
         "ai"
-      ]
-    },
-    {
-      "group": "General",
-      "pages": [
-        "payments",
-        "frequently-asked"
       ]
     },
     {
