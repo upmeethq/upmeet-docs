@@ -49,12 +49,9 @@
   ],
   "navigation": [
     {
-      "group": "General",
-      "pages": ["welcome", "frequently-asked", "changelog", "payments"]
-    },
-    {
       "group": "Hubs",
       "pages": [
+        "welcome",
         "security-hub",
         "integrations-hub"
       ]
@@ -67,6 +64,13 @@
         "call-error-messages",
         "recording",
         "ai"
+      ]
+    },
+    {
+      "group": "General",
+      "pages": [
+        "payments",
+        "frequently-asked"
       ]
     },
     {
