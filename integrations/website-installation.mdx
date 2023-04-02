@@ -5,33 +5,39 @@ description:
   place!"
 ---
 
-###### Overview
-In this guide we will be using the UpMeet embed code to install UpMeet to a page on your website.
+# Website Install
+Make sure you have access to your website and have technical experience.
 
-############ Step One
-On your website create a new file (let's call it mymeeting.html or whatever you want) and copy the following code into it.
+## Overview
+You can install UpMeet on an existing website or a new website, however it is usually easier to get started on an existing website that you have access to edit.
 
-```html
-<iframe src="https://upmeet.me/meet/?id=_YOUR_ID_" width="100%" height="100vh">
+## Pre-reqs
+Make sure you have your meeting link in the format of [call.upmeet.me/your-room](http://call.upmeet.me/your-room)
+
+Create a new file on your website (preferably an HTML file or anything that supports an iframe), copy and paste the code below and add any other things to the webpage like your ```<head>``` tags.
+
+## Code Example (starting from scratch)
+To get the `src=""` part go to your meeting link and copy the link where your meeting space is. You do not need to fill in the `logo` , `accent` or `company` parameters however make your room more personalised.
+
+```xml
+<body>
+    <script src="//upmeet.me/meet/jquery.min.js"></script>
+    <script src="//upmeet.me/upmeet.js">
+    </script>
+    <iframe id="upmeet-container" allow="microphone; camera; autoplay; display-capture" allowfullscreen
+        src="https://app-qa.upmeet.me/meet/?id=YOUR-ID&logo=YOUR-LOGO-URL&accent=HEX-CODE&company=COMPANY-NAME"
+        style="border: 0; height: 100vh; width: 100%;" />
+</body>
 ```
 
-This will fill the page with your meeting room. However you can easily experiment with the height and width to format it however you want.
+The code above takes care of making your meeting look good on the page. Set the page icon and title, however you can remove `<script src="//upmeet.me/upmeet.js"></script>` if you don't want the icon and page title set.
 
-################## Adding the theme param (optional)
-You can also add the theme param to the code you added to your website by adding a &theme=_XXX_ after your ?id=_YOUR_ID_.
-You can use the preset theme's listed below or you can use a color hex code by adding &theme=000000 (with no hashtag).
-- &theme=blue
-- &theme=red
-- &theme=green
-- &theme=yellow
-- &theme=orange
+  
 
-############ Step Two
-<Tip>The Room ID is automatically added when you go through onboarding when you sign up.</Tip>
-In your page that you added you need to replace ```_YOUR_ID_``` with your Room ID in the embed code. You can find your Room ID in your onboarding email or when you setup UpMeet.
+### Using a site builder
+You can also use your meeting link and add UpMeet to a site builder that allows you to embed another site to yours however it must support camera, microphone and screen sharing permissions.
 
-############ Step Three
-Now your ready to test your meeting room! 
+  
 
-Deploy the page to your website and give it a go.
-If you run into any error's go back to Step 2 or email team@upmeet.me
+### I need further help implementing
+Contact [team@upmeet.me](mailto:team@upmeet.me).
