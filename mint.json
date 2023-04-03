@@ -74,15 +74,6 @@
       ]
     },
     {
-      "group": "Integrations",
-      "pages": [
-        "integrations/website-installation",
-        "integrations/clickup",
-        "integrations/notion",
-        "integrations/slack"
-      ]
-    },
-    {
       "group": "App Safety",
       "pages": ["terms", "privacy", "recording-inprogress", "copilot-notice"]
     }
