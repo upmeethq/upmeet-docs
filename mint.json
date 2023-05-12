@@ -4,10 +4,6 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "integrations": {
-    "intercom": "vhrhwhwl"
-  },
-  "backgroundImage": "/images/back.png",
   "favicon": "/favicon.svg", 
   "colors": {
     "primary": "#107CB9",
@@ -24,26 +20,10 @@
     "name": "Sign Up",
     "url": "https://upmeet.me/pricing"
   },
-  "topbarLinks": [
-    {
-      "name": "Billing Portal",
-      "url": "https://billing.stripe.com/login/cN23g19ZJ7SCd4Q7ss"
-    }
-  ],
   "anchors": [
     {
-      "name": "Status",
-      "icon": "hexagon-check",
-      "url": "https://status.upmeet.me/"
-    },
-    {
-      "name": "Feedback",
-      "icon": "message-lines",
-      "url": "https://feedback.upmeet.me/"
-    },
-    {
-      "name": "Contact Us",
-      "icon": "envelope",
+      "name": "Get In Touch",
+      "icon": "messages",
       "url": "mailto:team@upmeet.me"
     }
   ],
