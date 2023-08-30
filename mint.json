@@ -4,58 +4,61 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "favicon": "/favicon.svg", 
+  "favicon": "/logo/favicon.svg", 
   "colors": {
-    "primary": "#107CB9",
-    "light": "#6bd3ff",
-    "dark": "#107CB9",
-    "ultraLight": "#e9f7fc",
-    "ultraDark": "#074e60",
+    "primary": "#5147F9",
+    "light": "#6473FF",
+    "dark": "#5147F9",
+    "ultraLight": "#E0E3FF",
+    "ultraDark": "#303DB5",
     "anchors": {
-      "from": "#107CB9",
-      "to": "#00B2FF"
+      "from": "#5147F9",
+      "to": "#7B88FF"
     }
   },
   "topbarCtaButton": {
-    "name": "Sign Up",
-    "url": "https://upmeet.me/pricing"
+    "name": "Sign In",
+    "url": "https://dashboard.upmeet.me/"
   },
   "anchors": [
     {
-      "name": "Get In Touch",
-      "icon": "messages",
+      "name": "Get in Touch",
+      "icon": "question",
       "url": "mailto:team@upmeet.me"
+    },
+    {
+      "name": "Status",
+      "icon": "cloud-check",
+      "url": "https://status.upmeet.me/"
     }
   ],
+  "backgroundImage": "/images/2023/Frame 36.png",
   "navigation": [
     {
       "group": "Hubs",
       "pages": [
         "welcome",
-        "security-hub",
-        "integrations-hub"
+        "security",
+        "integrations"
       ]
     },
     {
-      "group": "General",
+      "group": "Help Docs",
       "pages": [
-        "payments",
-        "frequently-asked"
+        "help/basics",
+        "faqs",
+        "help/ai",
+        "help/dashboard",
+        "help/branding",
+        "help/shared-browser",
+        "help/common-errors",
+        "help/billing"      
       ]
     },
+
     {
-      "group": "Guides",
-      "pages": [
-        "meeting-interface",
-        "controls",
-        "call-error-messages",
-        "recording",
-        "ai"
-      ]
-    },
-    {
-      "group": "App Safety",
-      "pages": ["terms", "privacy", "recording-inprogress", "copilot-notice"]
+      "group": "Legal",
+      "pages": ["legal/terms", "legal/privacy", "legal/recording-inprogress"]
     }
   ],
   "footerSocials": {
