@@ -43,13 +43,12 @@
       ]
     },
     {
-      "group": "Help Docs",
+      "group": "Guides",
       "pages": [
         "help/basics",
         "faqs",
         "help/ai",
         "help/dashboard",
-        "help/branding",
         "help/shared-browser",
         "help/common-errors",
         "help/billing"      
