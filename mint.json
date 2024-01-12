@@ -13,7 +13,7 @@
     "ultraDark": "#303DB5",
     "anchors": {
       "from": "#5147F9",
-      "to": "#7B88FF"
+      "to": "#5147F9"
     },
     "background": {
       "light": "#FAF9FF",
