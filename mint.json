@@ -14,6 +14,10 @@
     "anchors": {
       "from": "#5147F9",
       "to": "#7B88FF"
+    },
+    "background": {
+      "light": "#FAF9FF",
+      "dark": "#030220"
     }
   },
   "topbarCtaButton": {
@@ -39,13 +43,14 @@
       "pages": [
         "welcome",
         "security",
-        "integrations"
+        "integrations-providers"
       ]
     },
     {
       "group": "Guides",
       "pages": [
         "help/basics",
+        "integrations",
         "faqs",
         "help/ai",
         "help/dashboard",
