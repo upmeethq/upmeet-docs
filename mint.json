@@ -7,14 +7,14 @@
   "favicon": "/logo/favicon.svg", 
   "feedback.thumbsRating": true,
   "colors": {
-    "primary": "#5147F9",
+    "primary": "#3e63ff",
     "light": "#6473FF",
     "dark": "#5147F9",
     "ultraLight": "#E0E3FF",
     "ultraDark": "#303DB5",
     "anchors": {
-      "from": "#5147F9",
-      "to": "#5147F9"
+      "from": "#3e63ff",
+      "to": "#3759E7"
     },
     "background": {
       "light": "#FAF9FF",
