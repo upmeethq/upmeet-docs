@@ -4,6 +4,9 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "integrations": {
+    "intercom": "vhrhwhwl"
+  }
   "favicon": "/logo/favicon.svg", 
   "feedback.thumbsRating": true,
   "colors": {
