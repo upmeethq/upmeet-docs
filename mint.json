@@ -4,9 +4,6 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "integrations": {
-    "intercom": "vhrhwhwl"
-  }
   "favicon": "/logo/favicon.svg", 
   "feedback.thumbsRating": true,
   "colors": {
@@ -28,6 +25,9 @@
     "name": "Sign In",
     "url": "https://dashboard.upmeet.me/"
   },
+  "integrations": {
+    "intercom": "vhrhwhwl"
+  }
   "anchors": [
     {
       "name": "Get in Touch",
