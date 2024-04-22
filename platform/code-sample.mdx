@@ -1,0 +1,45 @@
+---
+title: "Platform API - Create Space"
+description: "Create space via the UpMeet Enterprise API."
+---
+
+<Warning>
+  The code is subject to change whilst in the beta period. *If changed it will
+  not cause breaking changes.*
+</Warning>
+
+```javascript API Example
+const myHeaders = new Headers();
+myHeaders.append("Authorization", "Bearer YOUR_API_KEY");
+
+const requestOptions = {
+  method: "POST",
+  headers: myHeaders,
+  redirect: "follow",
+};
+
+fetch("https://platform.upmeet.me/api/ENDPOINT_NAME", requestOptions)
+  .then((response) => response.text())
+  .then((result) => {
+    var link = result;
+
+    // Create an iframe element
+    const iframe = document.createElement("iframe");
+    iframe.src = link;
+    iframe.allow =
+      "camera; microphone; fullscreen; speaker; display-capture; autoplay";
+    iframe.style.width = "100%";
+    iframe.style.height = "100vh";
+    iframe.style.border = "0px";
+
+    // Append the iframe to a container in your HTML
+    document.getElementById("upmeetContainer").appendChild(iframe);
+  })
+  .catch((error) => console.error(error));
+```
+
+```html Frontend Container
+<div id="upmeetContainer"></div>
+```
+
+If you have any questions please contact your account manager.
