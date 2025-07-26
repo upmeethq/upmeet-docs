@@ -25,9 +25,6 @@
     "name": "Sign In",
     "url": "https://dashboard.upmeet.me/"
   },
-  "integrations": {
-    "intercom": "vhrhwhwl"
-  },
   "anchors": [
     {
       "name": "Get in Touch",
