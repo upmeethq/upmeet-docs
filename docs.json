@@ -1,0 +1,89 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "UpMeet",
+  "colors": {
+    "primary": "#374CF8",
+    "light": "#4756FF",
+    "dark": "#5147F9"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://upmeet.me"
+  },
+  "favicon": "/logo/favicon.svg",
+  "background": {
+    "color": {
+      "light": "#f7f7f2",
+      "dark": "#0b0b0f"
+    }
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Sign In",
+      "href": "https://dash.upmeet.me/"
+    }
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Get in Touch",
+          "icon": "question",
+          "href": "mailto:team@upmeet.me",
+          "color": {
+            "light": "#374CF8",
+            "dark": "#2438d8"
+          }
+        },
+        {
+          "anchor": "Status",
+          "icon": "cloud-check",
+          "href": "https://status.upmeet.me/",
+          "color": {
+            "light": "#374CF8",
+            "dark": "#2438d8"
+          }
+        }
+      ]
+    },
+    "groups": [
+      {
+        "group": "Hubs",
+        "pages": [
+          "welcome",
+          "security"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "integrations",
+          "faqs",
+          "help/ai",
+          "help/dashboard",
+          "help/shared-browser",
+          "help/common-errors",
+          "help/billing"
+        ]
+      },
+      {
+        "group": "Legal",
+        "pages": [
+          "legal/terms",
+          "legal/privacy",
+          "legal/recording-inprogress"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://upmeet.me",
+      "x": "https://x.com/upmeethq",
+      "github": "https://github.com/upmeethq"
+    }
+  }
+}
