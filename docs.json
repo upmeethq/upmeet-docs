@@ -54,14 +54,12 @@
         "group": "Hubs",
         "pages": [
           "welcome",
-          "security",
-          "integrations-providers"
+          "security"
         ]
       },
       {
         "group": "Guides",
         "pages": [
-          "help/basics",
           "integrations",
           "faqs",
           "help/ai",
